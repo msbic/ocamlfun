@@ -1,0 +1,5 @@
+(executable
+ ((name ocamlFun)
+  (libraries (core ppx_deriving))
+  (preprocess (pps (ppx_deriving.show)))
+))
